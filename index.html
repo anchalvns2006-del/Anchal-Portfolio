@@ -1,0 +1,2427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    />
+
+    <meta
+        name="description"
+        content="Anchal Patel — Computer Science & Engineering Undergraduate | Software Engineering | AI/ML | Full Stack Development"
+    />
+
+    <meta
+        name="theme-color"
+        content="#07110d"
+    />
+
+    <title>
+        Anchal Patel — Software Engineering | AI/ML | Full Stack
+    </title>
+
+
+    <!-- =========================================
+         GOOGLE FONTS
+    ========================================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    />
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    />
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    />
+
+
+    <!-- =========================================
+         DEVICON
+    ========================================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/devicon.min.css"
+    />
+
+
+    <!-- =========================================
+         MAIN CSS
+    ========================================== -->
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    />
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================================
+         BACKGROUND / CURSOR EFFECTS
+    ========================================== -->
+
+    <canvas
+        id="starCanvas"
+        aria-hidden="true"
+    ></canvas>
+
+    <div class="noise"></div>
+
+    <div class="cursor cursor-dot"></div>
+
+    <div class="cursor cursor-ring"></div>
+
+
+    <!-- =========================================
+         SCROLL PROGRESS
+    ========================================== -->
+
+    <div
+        class="scroll-progress"
+        id="scrollProgress"
+        aria-hidden="true"
+    ></div>
+
+
+
+    <!-- =========================================
+         HEADER / NAVBAR
+    ========================================== -->
+
+    <header class="site-header">
+
+        <nav class="nav container">
+
+
+            <!-- LOGO -->
+
+            <a
+                href="#home"
+                class="brand magnetic"
+                aria-label="Anchal Patel Home"
+            >
+
+                <span class="brand-mark">
+                    A
+                </span>
+
+                <span class="brand-name">
+                    ANCHAL<span>.</span>
+                </span>
+
+            </a>
+
+
+
+            <!-- DESKTOP NAVIGATION -->
+
+            <div
+                class="nav-links"
+                id="navLinks"
+            >
+
+                <a
+                    href="#home"
+                    class="nav-link active"
+                >
+                    Home
+                </a>
+
+
+                <a
+                    href="#about"
+                    class="nav-link"
+                >
+                    About
+                </a>
+
+
+                <a
+                    href="#experience"
+                    class="nav-link"
+                >
+                    Experience
+                </a>
+
+
+                <a
+                    href="#projects"
+                    class="nav-link"
+                >
+                    Projects
+                </a>
+
+
+                <a
+                    href="#skills"
+                    class="nav-link"
+                >
+                    Skills
+                </a>
+
+
+                <a
+                    href="#contact"
+                    class="nav-link"
+                >
+                    Contact
+                </a>
+
+
+                <a
+                    href="assets/Anchal-Patel-Resume.pdf"
+                    class="nav-resume"
+                    download
+                >
+                    Resume ↗
+                </a>
+
+            </div>
+
+
+
+            <!-- MOBILE MENU BUTTON -->
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                type="button"
+                aria-label="Open menu"
+                aria-expanded="false"
+            >
+
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =========================================
+         MOBILE NAVIGATION
+    ========================================== -->
+
+    <div
+        class="mobile-menu"
+        id="mobileMenu"
+    >
+
+        <a href="#home">
+            Home
+        </a>
+
+        <a href="#about">
+            About
+        </a>
+
+        <a href="#experience">
+            Experience
+        </a>
+
+        <a href="#projects">
+            Projects
+        </a>
+
+        <a href="#skills">
+            Skills
+        </a>
+
+        <a href="#contact">
+            Contact
+        </a>
+
+        <a
+            href="assets/Anchal-Patel-Resume.pdf"
+            download
+            class="mobile-resume"
+        >
+            Download Resume ↗
+        </a>
+
+    </div>
+
+
+
+    <!-- =========================================
+         MAIN
+    ========================================== -->
+
+    <main>
+
+
+        <!-- =====================================
+             HERO SECTION
+        ====================================== -->
+
+        <section
+            id="home"
+            class="hero section"
+        >
+
+            <div class="hero-grid container">
+
+
+                <!-- =================================
+                     HERO CONTENT
+                ================================== -->
+
+                <div class="hero-copy">
+
+
+                    <!-- Availability -->
+
+                    <div class="eyebrow reveal-up">
+
+                        <span class="status-dot"></span>
+
+                        AVAILABLE FOR SOFTWARE / AI-ML INTERNSHIPS
+
+                    </div>
+
+
+
+                    <!-- Greeting -->
+
+                    <p class="hero-kicker reveal-up">
+                        HELLO, I'M
+                    </p>
+
+
+
+                    <!-- Name -->
+
+                    <h1 class="hero-title reveal-up">
+
+                        ANCHAL
+
+                        <span>
+                            PATEL
+                        </span>
+
+                    </h1>
+
+
+
+                    <!-- =================================
+                         PREMIUM ROLE
+                    ================================== -->
+
+                    <div class="hero-role reveal-up">
+
+                        <span class="role-main">
+                            Software Engineer
+                        </span>
+
+                        <span class="role-dot">
+                            ·
+                        </span>
+
+                        <span class="role-accent">
+                            AI / ML
+                        </span>
+
+                        <span class="role-dot">
+                            ·
+                        </span>
+
+                        <span class="role-main">
+                            Full Stack
+                        </span>
+
+                    </div>
+
+
+
+                    <!-- =================================
+                         HERO DESCRIPTION
+                    ================================== -->
+
+                    <p class="hero-description reveal-up">
+
+                        Computer Science &amp; Engineering undergraduate
+                        graduating in 2028, focused on building reliable
+                        software products and intelligent systems across
+
+                        <strong>
+                            software engineering, AI/ML and full-stack development.
+                        </strong>
+
+                    </p>
+
+
+
+                    <!-- =================================
+                         CTA BUTTONS
+                    ================================== -->
+
+                    <div class="hero-actions reveal-up">
+
+
+                        <a
+                            href="#projects"
+                            class="btn btn-primary magnetic"
+                        >
+
+                            View My Work
+
+                            <span>
+                                ↘
+                            </span>
+
+                        </a>
+
+
+
+                        <a
+                            href="assets/Anchal-Patel-Resume.pdf"
+                            class="btn btn-secondary magnetic"
+                            download
+                        >
+
+                            Download Resume
+
+                            <span>
+                                ↗
+                            </span>
+
+                        </a>
+
+                    </div>
+
+
+
+                    <!-- =================================
+                         SOCIAL LINKS
+                    ================================== -->
+
+                    <div class="social-row reveal-up">
+
+
+                        <a
+                            href="mailto:anchalvns2006@gmail.com"
+                            class="social-pill magnetic"
+                        >
+                            Email
+                        </a>
+
+
+                        <a
+                            href="https://github.com/anchalvns2006-del"
+                            class="social-pill magnetic"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub
+                        </a>
+
+
+                        <a
+                            href="https://linkedin.com/in/anchal-patel-59385a329"
+                            class="social-pill magnetic"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            LinkedIn
+                        </a>
+
+
+                        <a
+                            href="https://leetcode.com/u/leet_anchal"
+                            class="social-pill magnetic"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            LeetCode
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================
+                     HERO VISUAL
+                ================================== -->
+
+                <div
+                    class="hero-visual reveal-scale"
+                    aria-label="Anchal Patel Profile"
+                >
+
+
+                    <!-- Glow -->
+
+                    <div class="hero-glow"></div>
+
+
+                    <!-- Orbit Rings -->
+
+                    <div class="hero-orbit orbit-a"></div>
+
+                    <div class="hero-orbit orbit-b"></div>
+
+
+                    <!-- Grid -->
+
+                    <div class="hero-grid-lines"></div>
+
+
+
+                    <!-- Profile Image -->
+
+                    <div class="hero-photo-wrap">
+
+                        <img
+                            src="assets/profile.jpeg"
+                            alt="Anchal Patel"
+                            class="hero-photo"
+                        />
+
+
+                        <div class="photo-caption">
+
+                            <span>
+                                BUILDING WITH PURPOSE
+                            </span>
+
+                            <span>
+                                INDIA / 2026
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Floating Card 1 -->
+
+                    <div class="float-card float-top">
+
+                        <span class="float-label">
+                            FOCUS
+                        </span>
+
+                        <strong>
+
+                            Software
+                            <br />
+                            Engineering
+
+                        </strong>
+
+                    </div>
+
+
+
+                    <!-- Floating Card 2 -->
+
+                    <div class="float-card float-bottom">
+
+                        <span class="float-label">
+                            STACK
+                        </span>
+
+                        <strong>
+
+                            Java · Python
+                            <br />
+                            React · FastAPI
+
+                        </strong>
+
+                    </div>
+
+
+
+                    <!-- Graduation Badge -->
+
+                    <div class="hero-badge">
+
+                        CSE
+
+                        <br />
+
+                        <b>
+                            2028
+                        </b>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================
+                 HERO MARQUEE
+            ================================== -->
+
+            <div class="marquee-wrap">
+
+                <div class="marquee">
+
+
+                    <span>
+                        SOFTWARE ENGINEERING
+                    </span>
+
+                    <i>✦</i>
+
+
+                    <span>
+                        AI / ML
+                    </span>
+
+                    <i>✦</i>
+
+
+                    <span>
+                        FULL STACK
+                    </span>
+
+                    <i>✦</i>
+
+
+                    <span>
+                        BACKEND
+                    </span>
+
+                    <i>✦</i>
+
+
+                    <span>
+                        DATA
+                    </span>
+
+                    <i>✦</i>
+
+
+
+                    <span>
+                        SOFTWARE ENGINEERING
+                    </span>
+
+                    <i>✦</i>
+
+
+                    <span>
+                        AI / ML
+                    </span>
+
+                    <i>✦</i>
+
+
+                    <span>
+                        FULL STACK
+                    </span>
+
+                    <i>✦</i>
+
+
+                    <span>
+                        BACKEND
+                    </span>
+
+                    <i>✦</i>
+
+
+                    <span>
+                        DATA
+                    </span>
+
+                    <i>✦</i>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             ABOUT SECTION
+        ====================================== -->
+
+        <section
+            id="about"
+            class="section section-dark"
+        >
+
+            <div class="container">
+
+
+                <div class="section-head">
+
+                    <span class="section-index">
+                        01 / ABOUT
+                    </span>
+
+                    <span class="section-line"></span>
+
+                    <span class="section-note">
+                        A little about the person behind the builds.
+                    </span>
+
+                </div>
+
+
+
+                <div class="about-layout">
+
+
+                    <!-- ABOUT TITLE -->
+
+                    <div class="about-title reveal-up">
+
+                        <p class="mini-label">
+                            WHO I AM
+                        </p>
+
+                        <h2>
+
+                            Building ideas into
+
+                            <span>
+                                useful software.
+                            </span>
+
+                        </h2>
+
+                    </div>
+
+
+
+                    <!-- ABOUT CONTENT -->
+
+                    <div class="about-copy reveal-up">
+
+
+                        <p>
+
+                            I'm a Computer Science &amp; Engineering
+                            undergraduate at
+
+                            <strong>
+                                BBDU Lucknow
+                            </strong>
+
+                            graduating in 2028.
+
+                            I enjoy working at the intersection of
+                            software engineering, AI/ML and data.
+
+                        </p>
+
+
+
+                        <p>
+
+                            My work spans
+
+                            <strong>
+                                Java, Python, REST APIs, React,
+                                FastAPI, Flask, Streamlit,
+                                SQLAlchemy and Scikit-learn.
+                            </strong>
+
+                            I care about clean problem solving,
+                            practical interfaces and building projects
+                            that can actually be used.
+
+                        </p>
+
+
+
+                        <p>
+
+                            I completed a project-based
+
+                            <strong>
+                                Machine Learning internship at CodSoft
+                            </strong>
+
+                            and am currently pursuing a
+
+                            <strong>
+                                Full Stack Development internship
+                                at CodeOrbit Tech.
+                            </strong>
+
+                        </p>
+
+
+
+                        <!-- STATS -->
+
+                        <div class="about-stats">
+
+
+                            <div class="stat">
+
+                                <strong>
+                                    2028
+                                </strong>
+
+                                <span>
+                                    Graduation
+                                </span>
+
+                            </div>
+
+
+
+                            <div class="stat">
+
+                                <strong>
+                                    04+
+                                </strong>
+
+                                <span>
+                                    Featured Builds
+                                </span>
+
+                            </div>
+
+
+
+                            <div class="stat">
+
+                                <strong>
+                                    AI + SWE
+                                </strong>
+
+                                <span>
+                                    Core Direction
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             EXPERIENCE SECTION
+        ====================================== -->
+
+        <section
+            id="experience"
+            class="section"
+        >
+
+            <div class="container">
+
+
+                <div class="section-head">
+
+                    <span class="section-index">
+                        02 / EXPERIENCE
+                    </span>
+
+                    <span class="section-line"></span>
+
+                    <span class="section-note">
+                        Internships, practical work and learning by building.
+                    </span>
+
+                </div>
+
+
+
+                <div class="experience-intro reveal-up">
+
+                    <p class="mini-label">
+                        PROFESSIONAL EXPERIENCE
+                    </p>
+
+                    <h2>
+
+                        A timeline of
+
+                        <span>
+                            hands-on work.
+                        </span>
+
+                    </h2>
+
+                </div>
+
+
+
+                <div class="experience-list">
+
+
+                    <!-- EXPERIENCE 01 -->
+
+                    <article class="experience-card reveal-up">
+
+                        <div class="experience-number">
+                            01
+                        </div>
+
+
+                        <div class="experience-main">
+
+                            <div class="experience-top">
+
+                                <div>
+
+                                    <p class="experience-company">
+                                        CodeOrbit Tech
+                                    </p>
+
+                                    <h3>
+                                        Full Stack Development Intern
+                                    </h3>
+
+                                </div>
+
+
+                                <span class="experience-date">
+                                    SEP 2026 — PRESENT
+                                </span>
+
+                            </div>
+
+
+                            <p class="experience-description">
+
+                                Selected for a 1.5-month internship focused on
+                                practical full-stack development, software
+                                engineering tasks and hands-on project work.
+
+                            </p>
+
+
+                            <div class="highlight">
+
+                                <span class="highlight-icon">
+                                    +
+                                </span>
+
+                                <p>
+
+                                    Applying frontend, backend,
+                                    debugging and problem-solving skills
+                                    in a practical development environment.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- EXPERIENCE 02 -->
+
+                    <article class="experience-card reveal-up">
+
+                        <div class="experience-number">
+                            02
+                        </div>
+
+
+                        <div class="experience-main">
+
+                            <div class="experience-top">
+
+                                <div>
+
+                                    <p class="experience-company">
+                                        CodSoft
+                                    </p>
+
+                                    <h3>
+                                        Machine Learning Intern
+                                    </h3>
+
+                                </div>
+
+
+                                <span class="experience-date">
+                                    AUG 2026 — SEP 2026
+                                </span>
+
+                            </div>
+
+
+                            <p class="experience-description">
+
+                                Completed a 4-week project-based Machine
+                                Learning internship covering classification,
+                                NLP, fraud detection and deep-learning tasks.
+
+                            </p>
+
+
+                            <div class="highlight">
+
+                                <span class="highlight-icon">
+                                    +
+                                </span>
+
+                                <p>
+
+                                    Applied Python, data preprocessing,
+                                    feature engineering, model training
+                                    and evaluation to practical ML problems.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             PROJECTS SECTION
+        ====================================== -->
+
+        <section
+            id="projects"
+            class="section section-dark"
+        >
+
+            <div class="container">
+
+
+                <div class="section-head">
+
+                    <span class="section-index">
+                        03 / PROJECTS
+                    </span>
+
+                    <span class="section-line"></span>
+
+                    <span class="section-note">
+                        Selected projects that show how I think and build.
+                    </span>
+
+                </div>
+
+
+
+                <div class="projects-intro reveal-up">
+
+                    <p class="mini-label">
+                        FEATURED WORK
+                    </p>
+
+                    <h2>
+
+                        Selected
+
+                        <span>
+                            projects.
+                        </span>
+
+                    </h2>
+
+                </div>
+
+
+
+                <div class="project-list">
+
+
+                    <!-- PROJECT 01 -->
+
+                    <article class="project-card reveal-up">
+
+                        <div class="project-topline">
+
+                            <span class="project-index">
+                                01
+                            </span>
+
+                            <span class="project-type">
+                                AI · SATELLITE · FULL STACK
+                            </span>
+
+                        </div>
+
+
+                        <div class="project-body">
+
+
+                            <div class="project-copy">
+
+                                <p class="project-label">
+                                    FEATURED BUILD
+                                </p>
+
+                                <h3>
+                                    OreSight AI
+                                </h3>
+
+
+                                <p>
+
+                                    AI &amp; Satellite Intelligence for
+                                    manganese exploration and mine production.
+
+                                    Combines mineral prospectivity,
+                                    production forecasting, equipment risk
+                                    and satellite-related insights into one
+                                    decision-support platform.
+
+                                </p>
+
+
+                                <div class="project-tags">
+
+                                    <span>Python</span>
+
+                                    <span>FastAPI</span>
+
+                                    <span>React</span>
+
+                                    <span>Scikit-learn</span>
+
+                                    <span>Satellite Data</span>
+
+                                </div>
+
+
+                                <div class="project-links">
+
+                                    <a
+                                        href="https://github.com/anchalvns2006-del/OreSight-AI"
+                                        class="text-link magnetic"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        View GitHub
+                                        <span>↗</span>
+                                    </a>
+
+                                    <span class="project-role">
+                                        SOFTWARE + AI
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="project-visual oresight">
+
+                                <div class="visual-window">
+
+                                    <div class="window-bar">
+
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+
+                                        <em>
+                                            oresight.ai
+                                        </em>
+
+                                    </div>
+
+
+                                    <div class="dashboard-preview">
+
+                                        <div class="preview-label">
+                                            RESERVE POTENTIAL
+                                        </div>
+
+                                        <strong>
+                                            78.6
+                                        </strong>
+
+
+                                        <div class="preview-row">
+
+                                            <span>
+                                                PROSPECTIVITY
+                                            </span>
+
+                                            <b>
+                                                94.6%
+                                            </b>
+
+                                        </div>
+
+
+                                        <div class="preview-row">
+
+                                            <span>
+                                                PRODUCTION R²
+                                            </span>
+
+                                            <b>
+                                                0.955
+                                            </b>
+
+                                        </div>
+
+
+                                        <div class="preview-chart">
+
+                                            <i></i>
+                                            <i></i>
+                                            <i></i>
+                                            <i></i>
+                                            <i></i>
+                                            <i></i>
+                                            <i></i>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PROJECT 02 -->
+
+                    <article class="project-card reveal-up">
+
+                        <div class="project-topline">
+
+                            <span class="project-index">
+                                02
+                            </span>
+
+                            <span class="project-type">
+                                AI / ML · HEALTH
+                            </span>
+
+                        </div>
+
+
+                        <div class="project-body">
+
+
+                            <div class="project-copy">
+
+                                <p class="project-label">
+                                    FEATURED BUILD
+                                </p>
+
+                                <h3>
+                                    LifeLink AI
+                                </h3>
+
+
+                                <p>
+
+                                    AI-powered maternal health risk
+                                    prediction application with preprocessing,
+                                    feature scaling, analytics and health-report
+                                    views, designed to turn health indicators
+                                    into understandable risk insights.
+
+                                </p>
+
+
+                                <div class="project-tags">
+
+                                    <span>Python</span>
+
+                                    <span>Scikit-learn</span>
+
+                                    <span>Pandas</span>
+
+                                    <span>Streamlit</span>
+
+                                    <span>Random Forest</span>
+
+                                </div>
+
+
+                                <div class="project-links">
+
+                                    <a
+                                        href="https://github.com/anchalvns2006-del/Machine-Learning-Model-for-Maternal-Health-Monitoring"
+                                        class="text-link magnetic"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        View GitHub
+                                        <span>↗</span>
+                                    </a>
+
+                                    <span class="project-role">
+                                        AI / ML
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="project-visual lifelink">
+
+                                <div class="visual-window">
+
+                                    <div class="window-bar">
+
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+
+                                        <em>
+                                            lifelink-ai
+                                        </em>
+
+                                    </div>
+
+
+                                    <div class="health-preview">
+
+                                        <div class="health-ring">
+
+                                            <strong>
+                                                95%
+                                            </strong>
+
+                                            <small>
+                                                MODEL
+                                            </small>
+
+                                        </div>
+
+
+                                        <div class="health-bars">
+
+                                            <span style="width:82%;"></span>
+
+                                            <span style="width:64%;"></span>
+
+                                            <span style="width:90%;"></span>
+
+                                            <span style="width:72%;"></span>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PROJECT 03 -->
+
+                    <article class="project-card reveal-up">
+
+                        <div class="project-topline">
+
+                            <span class="project-index">
+                                03
+                            </span>
+
+                            <span class="project-type">
+                                DATA · ML · BI
+                            </span>
+
+                        </div>
+
+
+                        <div class="project-body">
+
+
+                            <div class="project-copy">
+
+                                <p class="project-label">
+                                    DATA PROJECT
+                                </p>
+
+                                <h3>
+                                    Bank Customer Churn Analysis
+                                </h3>
+
+
+                                <p>
+
+                                    Data-driven churn analysis combining
+                                    Python, SQL, Machine Learning and Power BI
+                                    to explore customer behavior, segment risk
+                                    and surface actionable insights.
+
+                                </p>
+
+
+                                <div class="project-tags">
+
+                                    <span>Python</span>
+
+                                    <span>SQL</span>
+
+                                    <span>Power BI</span>
+
+                                    <span>Machine Learning</span>
+
+                                    <span>Data Analysis</span>
+
+                                </div>
+
+
+                                <div class="project-links">
+
+                                    <a
+                                        href="https://github.com/anchalvns2006-del/Bank-Customer-Churn-Analysis"
+                                        class="text-link magnetic"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        View GitHub
+                                        <span>↗</span>
+                                    </a>
+
+                                    <span class="project-role">
+                                        DATA + ML
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="project-visual churn">
+
+                                <div class="visual-window">
+
+                                    <div class="window-bar">
+
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+
+                                        <em>
+                                            customer-analytics
+                                        </em>
+
+                                    </div>
+
+
+                                    <div class="churn-preview">
+
+
+                                        <div class="metric">
+
+                                            <span>
+                                                AT RISK
+                                            </span>
+
+                                            <strong>
+                                                1587
+                                            </strong>
+
+                                        </div>
+
+
+                                        <div class="metric">
+
+                                            <span>
+                                                MEDIUM
+                                            </span>
+
+                                            <strong>
+                                                277
+                                            </strong>
+
+                                        </div>
+
+
+                                        <div class="metric">
+
+                                            <span>
+                                                HIGH
+                                            </span>
+
+                                            <strong>
+                                                136
+                                            </strong>
+
+                                        </div>
+
+
+                                        <div class="mini-bars">
+
+                                            <i></i>
+                                            <i></i>
+                                            <i></i>
+                                            <i></i>
+                                            <i></i>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PROJECT 04 -->
+
+                    <article class="project-card reveal-up">
+
+                        <div class="project-topline">
+
+                            <span class="project-index">
+                                04
+                            </span>
+
+                            <span class="project-type">
+                                SOFTWARE · AI · DEV TOOLS
+                            </span>
+
+                        </div>
+
+
+                        <div class="project-body">
+
+
+                            <div class="project-copy">
+
+                                <p class="project-label">
+                                    ENGINEERING BUILD
+                                </p>
+
+                                <h3>
+                                    mini-open-sre
+                                </h3>
+
+
+                                <p>
+
+                                    A developer-focused engineering project
+                                    exploring monitoring, logs and operational
+                                    tooling with an AI/software-engineering
+                                    mindset.
+
+                                </p>
+
+
+                                <div class="project-tags">
+
+                                    <span>Python</span>
+
+                                    <span>AI</span>
+
+                                    <span>Monitoring</span>
+
+                                    <span>Developer Tools</span>
+
+                                    <span>Engineering</span>
+
+                                </div>
+
+
+                                <div class="project-links">
+
+                                    <a
+                                        href="https://github.com/anchalvns2006-del/mini-open-sre"
+                                        class="text-link magnetic"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        View GitHub
+                                        <span>↗</span>
+                                    </a>
+
+                                    <span class="project-role">
+                                        ENGINEERING
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="project-visual sre">
+
+                                <div class="visual-window">
+
+                                    <div class="window-bar">
+
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+
+                                        <em>
+                                            mini-open-sre
+                                        </em>
+
+                                    </div>
+
+
+                                    <div class="terminal-preview">
+
+                                        <p>
+
+                                            <span>
+                                                $
+                                            </span>
+
+                                            monitor --service api
+
+                                        </p>
+
+
+                                        <p class="ok">
+
+                                            ● HEALTHY
+
+                                            <b>
+                                                99.8%
+                                            </b>
+
+                                        </p>
+
+
+                                        <p>
+
+                                            <span>
+                                                $
+                                            </span>
+
+                                            logs --tail 20
+
+                                        </p>
+
+
+                                        <p class="muted">
+
+                                            request_id=7f4d
+                                            latency=128ms
+
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+
+                <!-- MORE GITHUB -->
+
+                <div class="projects-footer reveal-up">
+
+                    <span>
+                        MORE ON GITHUB
+                    </span>
+
+
+                    <a
+                        href="https://github.com/anchalvns2006-del"
+                        class="btn btn-secondary magnetic"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Explore All Repositories ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             SKILLS SECTION
+        ====================================== -->
+
+        <section
+            id="skills"
+            class="section"
+        >
+
+            <div class="container">
+
+
+                <div class="section-head">
+
+                    <span class="section-index">
+                        04 / SKILLS
+                    </span>
+
+                    <span class="section-line"></span>
+
+                    <span class="section-note">
+                        A practical stack built around software + AI.
+                    </span>
+
+                </div>
+
+
+
+                <div class="skills-title reveal-up">
+
+                    <p class="mini-label">
+                        TECH STACK
+                    </p>
+
+                    <h2>
+
+                        Tools I use to
+
+                        <span>
+                            bring ideas to life.
+                        </span>
+
+                    </h2>
+
+                </div>
+
+
+
+                <div class="skills-grid">
+
+
+                    <!-- LANGUAGES -->
+
+                    <div class="skill-column reveal-up">
+
+                        <p class="skill-heading">
+                            LANGUAGES
+                        </p>
+
+
+                        <div class="skill-items">
+
+
+                            <div class="skill-item">
+
+                                <i class="devicon-java-plain"></i>
+
+                                <span>
+                                    Java
+                                </span>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <i class="devicon-python-plain"></i>
+
+                                <span>
+                                    Python
+                                </span>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <i class="devicon-javascript-plain"></i>
+
+                                <span>
+                                    JavaScript
+                                </span>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <i class="devicon-mysql-plain"></i>
+
+                                <span>
+                                    SQL
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- CORE CS -->
+
+                    <div class="skill-column reveal-up">
+
+                        <p class="skill-heading">
+                            CORE CS
+                        </p>
+
+
+                        <div class="skill-items">
+
+
+                            <div class="skill-item skill-text">
+
+                                <span>
+                                    DSA
+                                </span>
+
+                                <small>
+                                    Data Structures &amp; Algorithms
+                                </small>
+
+                            </div>
+
+
+                            <div class="skill-item skill-text">
+
+                                <span>
+                                    OOP
+                                </span>
+
+                                <small>
+                                    Object-Oriented Programming
+                                </small>
+
+                            </div>
+
+
+                            <div class="skill-item skill-text">
+
+                                <span>
+                                    DBMS
+                                </span>
+
+                                <small>
+                                    Database Management
+                                </small>
+
+                            </div>
+
+
+                            <div class="skill-item skill-text">
+
+                                <span>
+                                    OS
+                                </span>
+
+                                <small>
+                                    Operating Systems
+                                </small>
+
+                            </div>
+
+
+                            <div class="skill-item skill-text">
+
+                                <span>
+                                    CN
+                                </span>
+
+                                <small>
+                                    Computer Networks
+                                </small>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- WEB / BACKEND -->
+
+                    <div class="skill-column reveal-up">
+
+                        <p class="skill-heading">
+                            WEB / BACKEND
+                        </p>
+
+
+                        <div class="skill-items">
+
+
+                            <div class="skill-item">
+
+                                <i class="devicon-react-original"></i>
+
+                                <span>
+                                    React
+                                </span>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <i class="devicon-vitejs-plain"></i>
+
+                                <span>
+                                    Vite
+                                </span>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <i class="devicon-fastapi-plain"></i>
+
+                                <span>
+                                    FastAPI
+                                </span>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <i class="devicon-flask-original"></i>
+
+                                <span>
+                                    Flask
+                                </span>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <i class="devicon-spring-original"></i>
+
+                                <span>
+                                    Spring Boot
+                                </span>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <span class="skill-symbol">
+                                    API
+                                </span>
+
+                                <span>
+                                    REST APIs
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- AI / ML / DATA -->
+
+                    <div class="skill-column reveal-up">
+
+                        <p class="skill-heading">
+                            AI / ML / DATA
+                        </p>
+
+
+                        <div class="skill-items">
+
+
+                            <div class="skill-item">
+
+                                <i class="devicon-scikitlearn-plain"></i>
+
+                                <span>
+                                    Scikit-learn
+                                </span>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <i class="devicon-pandas-plain"></i>
+
+                                <span>
+                                    Pandas
+                                </span>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <i class="devicon-numpy-plain"></i>
+
+                                <span>
+                                    NumPy
+                                </span>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <span class="skill-symbol">
+                                    ML
+                                </span>
+
+                                <span>
+                                    Machine Learning
+                                </span>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <span class="skill-symbol">
+                                    NLP
+                                </span>
+
+                                <span>
+                                    NLP / TF-IDF
+                                </span>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <span class="skill-symbol">
+                                    BI
+                                </span>
+
+                                <span>
+                                    Power BI
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- DATABASE / TOOLS -->
+
+                    <div class="skill-column reveal-up">
+
+                        <p class="skill-heading">
+                            DATABASE / TOOLS
+                        </p>
+
+
+                        <div class="skill-items">
+
+
+                            <div class="skill-item">
+
+                                <i class="devicon-mongodb-plain"></i>
+
+                                <span>
+                                    MongoDB
+                                </span>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <i class="devicon-postgresql-plain"></i>
+
+                                <span>
+                                    PostgreSQL
+                                </span>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <i class="devicon-sqlite-plain"></i>
+
+                                <span>
+                                    SQLite
+                                </span>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <i class="devicon-git-plain"></i>
+
+                                <span>
+                                    Git
+                                </span>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <i class="devicon-github-original"></i>
+
+                                <span>
+                                    GitHub
+                                </span>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <span class="skill-symbol">
+                                    PM
+                                </span>
+
+                                <span>
+                                    Postman
+                                </span>
+
+                            </div>
+
+
+                            <div class="skill-item">
+
+                                <span class="skill-symbol">
+                                    VS
+                                </span>
+
+                                <span>
+                                    VS Code
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             CONTACT SECTION
+        ====================================== -->
+
+        <section
+            id="contact"
+            class="section section-contact"
+        >
+
+            <div class="container contact-shell">
+
+
+                <div class="section-head light-head">
+
+                    <span class="section-index">
+                        05 / CONTACT
+                    </span>
+
+                    <span class="section-line"></span>
+
+                    <span class="section-note">
+                        Let's turn the next idea into something real.
+                    </span>
+
+                </div>
+
+
+
+                <div class="contact-content">
+
+
+                    <!-- CONTACT TEXT -->
+
+                    <div class="contact-copy reveal-up">
+
+                        <p class="mini-label">
+                            GET IN TOUCH
+                        </p>
+
+
+                        <h2>
+
+                            Let's build
+
+                            <br />
+
+                            <span>
+                                something great.
+                            </span>
+
+                        </h2>
+
+
+                        <p>
+
+                            I'm open to software engineering,
+                            backend, full-stack and AI/ML internship
+                            opportunities, collaborations and
+                            interesting technical projects.
+
+                        </p>
+
+                    </div>
+
+
+
+                    <!-- CONTACT CARD -->
+
+                    <div class="contact-card reveal-up">
+
+
+                        <div class="contact-item">
+
+                            <span>
+                                EMAIL
+                            </span>
+
+                            <a
+                                href="mailto:anchalvns2006@gmail.com"
+                            >
+                                anchalvns2006@gmail.com
+                            </a>
+
+                        </div>
+
+
+
+                        <div class="contact-item">
+
+                            <span>
+                                PHONE
+                            </span>
+
+                            <a
+                                href="tel:+919219338295"
+                            >
+                                +91 92193 38295
+                            </a>
+
+                        </div>
+
+
+
+                        <div class="contact-actions">
+
+
+                            <a
+                                href="mailto:anchalvns2006@gmail.com"
+                                class="btn btn-primary magnetic"
+                            >
+
+                                Send Email
+
+                                <span>
+                                    ↗
+                                </span>
+
+                            </a>
+
+
+                            <a
+                                href="https://linkedin.com/in/anchal-patel-59385a329"
+                                class="btn btn-ghost magnetic"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+
+                                LinkedIn
+
+                                <span>
+                                    ↗
+                                </span>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <footer class="site-footer">
+
+        <div class="container footer-inner">
+
+
+            <div>
+
+                <div class="footer-brand">
+
+                    ANCHAL PATEL<span>.</span>
+
+                </div>
+
+
+                <p>
+                    Software Engineering · AI/ML · Full Stack
+                </p>
+
+            </div>
+
+
+
+            <div class="footer-links">
+
+
+                <a
+                    href="https://github.com/anchalvns2006-del"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    GitHub
+                </a>
+
+
+                <a
+                    href="https://linkedin.com/in/anchal-patel-59385a329"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    LinkedIn
+                </a>
+
+
+                <a
+                    href="https://leetcode.com/u/leet_anchal"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    LeetCode
+                </a>
+
+
+                <a
+                    href="mailto:anchalvns2006@gmail.com"
+                >
+                    Email
+                </a>
+
+            </div>
+
+
+
+            <span class="footer-copy">
+
+                ©
+
+                <span id="year"></span>
+
+                ANCHAL PATEL
+
+            </span>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =========================================
+         GSAP
+    ========================================== -->
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js">
+    </script>
+
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js">
+    </script>
+
+
+
+    <!-- =========================================
+         MAIN JAVASCRIPT
+    ========================================== -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
